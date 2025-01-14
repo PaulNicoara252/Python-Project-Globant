@@ -5,14 +5,6 @@ from git import Repo
 import ast
 import shutil
 
-
-def repozitor(github_url, clone_dir="cloned_repo"):
-    # Cloneaza repository-ul GitHub specificat intr-un folder din fisiere
-    if os.path.exists(clone_dir):
-        shutil.rmtree(clone_dir)  # Sterge directorul existent
-    Repo.clone_from(github_url, clone_dir)
-
-
 def analiza_librarii(project_dir):
     # Analizeaza fisierelor ===> extragerea librariilor
     libraries = set()
