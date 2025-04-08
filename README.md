@@ -1,5 +1,4 @@
-# Homework-1-Curs-Python
-Nume student: Nicoară Paul-Nicolae
-
-Am ales sa fac tema 1, mai jos aveti folder ul principal unde este proiectul
-pachete necesare: safety, gitpython 
+# Globant Project Work
+Student name: Nicoară Paul-Nicolae
+A python project that analyzes a public Python project from a GitHub URL, identifies all used libraries, and checks for known security issues.
+necessary packages: safety, gitpython 
