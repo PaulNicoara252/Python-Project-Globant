@@ -36,12 +36,14 @@ PythonProject2/
 ├── proiectgithub.py       # 🧠 Main Engine (Analysis & Security Logic)
 ├── requirements.txt       # 📄 Dependencies required to run this tool
 └── README.md              # 📖 Project Documentation
+```
+
 💻 Installation & Usage
 1. Prerequisites
 Ensure you have the necessary libraries installed (GitPython and safety).
 
 Bash
-git clone [https://github.com/your-username/PythonProject2.git](https://github.com/your-username/PythonProject2.git)
+git clone [https://github.com/PaulNicoara252/PythonProject2.git](https://github.com/PaulNicoara252/PythonProject2.git)
 cd PythonProject2
 pip install -r requirements.txt
 (Note: The requirements.txt for this tool must include GitPython and safety)
@@ -71,16 +73,3 @@ Checking for known security vulnerabilities...
 No security issues found.
 Cleaning up downloaded repository...
 Cleanup successful.
-🧩 Technologies Used
-Python 3 - Core logic.
-
-AST (Abstract Syntax Tree) - For high-precision source code parsing.
-
-GitPython - For programmatic git operations.
-
-Safety - For vulnerability scanning and compliance checking.
-
-OS & Shutil - For file system manipulation.
-
-👨‍💻 Author
-Developed by Paul Nicolae Nicoara.
